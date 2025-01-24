@@ -8,6 +8,7 @@
 
 body {
     background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%); 
+    color:rgba(255, 255, 255, 1);
     font-family: "Montserrat", serif;
 }
 
@@ -20,10 +21,10 @@ nav {
 }
 
 nav a {
+    color:rgba(255, 255, 255, 1);
     font-weight: 400;
     font-size: 18px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 1);
     padding: 10px;
 }
 
@@ -64,13 +65,73 @@ h1 {
 
 }
 
+.section1 {
+    width: 1196px;
+    height: 601px;
+    opacity: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
 
 
+}
 
+h3 {
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 49.98px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
 
+.firstp {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
 
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.smallcontainer {
+    flex-direction: column;
+    width: 514px;
+    height: 427px;
 
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button {
+    width: 172px;
+    height: 50px;
+    background: rgba(239, 50, 217, 1);
+    border: 2px solid rgba(239, 50, 217, 1);
+    color:rgba(255, 255, 255, 1);
+
+}
+
+.shoe {
+    width: 122px;
+    height: 54px; 
+   
+}
+
+.shoebox {
+    width: 122px;
+    height: 122px;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
 
 
 
