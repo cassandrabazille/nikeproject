@@ -69,8 +69,8 @@ h1 {
     width: 1196px;
     height: 601px;
     opacity: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 40px;
+
 
 
 }
@@ -133,8 +133,29 @@ button {
     border: 2px solid rgba(255, 255, 255, 1);
 }
 
+.section2 {
+    width: 1196px;
+    height: 637px;
+    opacity: 0px;
+    margin: 40px;
+}
 
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+h2 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 78.02px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(137, 255, 253, 1);
+
+}
 
 .no-bullets {
     list-style-type: none;
