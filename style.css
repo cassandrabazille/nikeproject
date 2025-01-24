@@ -112,7 +112,7 @@ h3 {
     justify-content: flex-end;
 }
 
-button {
+.button1style {
     width: 172px;
     height: 50px;
     background: rgba(239, 50, 217, 1);
@@ -157,6 +157,23 @@ h2 {
 
 }
 
+
+.section3 {
+    width: 1083px;
+    height: 957px;
+    margin: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+
+
 .no-bullets {
     list-style-type: none;
 }
+
