@@ -1,8 +1,68 @@
-body {
-    background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%) 
+
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
 
 }
 
+body {
+    background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%); 
+    font-family: "Montserrat", serif;
+}
+
+nav {
+	width: 1196px;
+	height: 60px;
+    margin-top: 22px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    height: 60px;
+    opacity: 0px;
+    }
+
+.rightnav {
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    color: rgba(137, 255, 253, 1);
+    font-size: 161px;
+    font-weight: 800;
+    line-height: 196.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
 
 
 

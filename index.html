@@ -5,16 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brief2</title>
         <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <header>
                 <nav>
-                <img src="Assets/desktop/icon-titre-header.png" alt="Logo nike">
-                <a href="#bestsales">Meilleures ventes</a>
-                <a href="#newcollections">Nouvelles collections</a>
-                <img src="Assets/desktop/icon-search-nav.png" alt="Recherche">
-                <img src="Assets/desktop/icon-panier-nav.png" alt="Panier">
+                <div class="container">
+                    <div class="logo">
+                    <img src="Assets/desktop/icon-titre-header.png" alt="Logo nike">
+                    </div>
+                     <div class="rightnav">
+                        <a href="#bestsales">Meilleures ventes</a>
+                        <a href="#newcollections">Nouvelles collections</a>
+                         <img src="Assets/desktop/icon-search-nav.png" alt="Recherche" class="icons">
+                          <img src="Assets/desktop/icon-panier-nav.png" alt="Panier" class="icons">
+                        </div>
+                    </div>
                 </nav>
             </header>
 
@@ -43,7 +52,7 @@
     </section>
 
     <section class="section2">
-        <h2>Meilleures ventes</h2>
+        <h2 id="bestsales">Meilleures ventes</h2>
         <div class="Element5">
             <img src="Assets/desktop/img-ventes-lakers.png" alt="Un homme et une femme portant des tee-shirt sans manches nike lakers jaunes">
              <p>Lebron James Lakers</p>
@@ -69,7 +78,7 @@
 
     </section>
     <section class ="section3">
-        <h2>Nouvelle collection</h2>
+        <h2 id="newcollections">Nouvelle collection</h2>
         <div class="photo1">
             <img src="Assets/desktop/img-gallerie-pink.png" alt="femme avec un tee-shirt manches longues roses et un legging noir à motif qui s'étire les bras">
             <button>Voir</button>
@@ -96,7 +105,6 @@
         </div>
 
     </section>
-
         </main>
 
         <footer>
