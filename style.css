@@ -150,6 +150,19 @@ h3 {
     justify-content: space-between;
 }
 
+.separateur1, .separateur2 {
+    width: 146px;
+    height: 9px;
+    background-color: #EF32D9;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.separateur2 {
+    width: 543px;
+    margin-left: 30%;
+}
+
 h2 {
     font-size: 64px;
     font-weight: 500;
@@ -163,39 +176,50 @@ h2 {
 
 
 .section3 {
-    width: 1083px;
-    height: 957px;
-    margin: 40px;
+    width: 971px; 
+    height: 780px;
+    margin-left: 40px;
+    margin-bottom: 200px;
 }
 
 .grid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-	grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 331px 111px 255px 274px;
+          /* gap à prendre en compte */
+    grid-template-rows: 243px 303px 221px;
+          /* gap à prendre en compte */
+    grid-gap:5px;
 
 }
+
+
 
 .photo1 {
-	grid-area: 1 / 1 / 3 / 2;
+	grid-column: 1 / 3 ;
+    grid-row: 1 / 3 ;
 }
 .photo2 {
-    grid-area: 1/2/2/3;
-
+    grid-column: 3 / 4 ;
+    grid-row: 1 / 2 ;
 }
 .photo3 {
-    grid-area: 1 / 3 / 4 / 4;
+    grid-column: 4 / 5 ;
+    grid-row: 1 / 4 ;
 }
 .photo4 {
-    grid-area: 2/2/3/3;
+    grid-column: 3 / 4  ;
+    grid-row: 2 / 3 ;
 }
 .photo5 {
-    grid-area: 3/2/4/3;
+     grid-column: 1 / 2 ;
+    grid-row: 3 / 4 ;
 }
 .photo6 {
-    grid-area: 3/1/4/2;
-}
+     grid-column: 2 / 4 ;
+    grid-row: 3 / 4 ;
+} */ 
 
-.button2style {
+/* .button2style {
     width: 68px;
     height: 38px;
     background-color: rgba(40, 41, 47, 1);
@@ -203,12 +227,43 @@ h2 {
     color:rgba(255, 255, 255, 1);
 
 
-}
+} */
 footer {
     width: 1196px;
     height: 269px;
-    margin: 40px;
+    margin-left: 40px;
+   
 
+}
+
+.lower-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.lf-element1 {
+    justify-content: flex-start;
+}
+
+.lf-element2 {
+    justify-content: flex-end;    
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.separateur3 {
+    background-color: #FFFFFF ;
+    opacity: 0.20;
+    width: 1196px;
+    height: 2px;
+    margin-left: 40px;
 }
 
 .container5 {
@@ -220,10 +275,10 @@ footer {
     list-style-type: none;
 }
 
-@media(max-width: 414px) {
+/* @media(max-width: 414px) {
    body {
     display: flex;
     flex-direction: column;
 
 }
-}
+} */
