@@ -3,20 +3,30 @@
     margin: 0;
     padding : 0;
     box-sizing: border-box;
+}
 
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%); 
 }
 
 body {
-    background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%); 
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color:rgba(255, 255, 255, 1);
     font-family: "Montserrat", serif;
     font-weight:400;
-    margin:40px;
+    /* margin-left:40px;
+    margin-right:40px; */
+   
 }
 
 nav {
-	width: 1196px;
-	height: 60px;
     margin-top: 22px;
     margin-left: 40px;
     margin-right: 40px;
@@ -31,6 +41,7 @@ nav a {
 }
 
 .container {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,6 +56,7 @@ nav a {
     }
 
 .rightnav {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     white-space: nowrap;
@@ -68,8 +80,7 @@ h1 {
 }
 
 .section1 {
-    width: 1196px;
-    height: 601px;
+    width: 100%;
     opacity: 0px;
     margin: 40px;
 
@@ -95,23 +106,52 @@ h3 {
     text-decoration-skip-ink: none;
 }
 
-.container2 {
+.maincontainer {
+    max-width: 100%;
+    /* width:100%; */
+    height: 601px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    background-color: blue;
+    margin-right: 8%;
 }
 
-.smallcontainer {
+.leftcontainer {
+    max-width: 50%;
+    justify-content: flex-start;
+    background-color: yellow;
+
+}
+.leftcontainerinsider {
+    max-width: 35%;
     flex-direction: column;
-    width: 514px;
-    height: 427px;
-
+    flex-wrap: wrap;
+   
 }
+
+.rightcontainer {
+    justify-content: center;
+    background-color: purple;
+  
+}
+
+.rightcontainer img {
+    max-width: 100%;
+}
+.sidecontainer {
+    justify-content: flex-end;
+    background-color: pink;
+  
+}
+
 
 .container3 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 8%;
+    background-color: green;
 }
 
 .button1style {
@@ -136,8 +176,7 @@ h3 {
 }
 
 .section2 {
-    width: 1196px;
-    height: 637px;
+    width: 100%;
     opacity: 0px;
     margin: 40px;
 }
@@ -150,6 +189,8 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 8%;
 }
 
 .separateur1, .separateur2 {
@@ -185,6 +226,7 @@ h2 {
 }
 
 .grid {
+    margin-top: 8%;
     display: grid;
     grid-template-columns: 331px 111px 255px 274px;
           /* gap à prendre en compte */
@@ -233,7 +275,7 @@ h2 {
 footer {
     width: 1196px;
     height: 269px;
-    margin-left: 40px;
+   
 }
 
 .container5 {
@@ -259,6 +301,7 @@ footer {
 }
 
 .lf-element2 {
+    display: flex;
     justify-content: flex-end; 
 
 } 
@@ -267,7 +310,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap:50px;
-    margin-right:40px;
+    margin-right:270px;
     
 }
 
