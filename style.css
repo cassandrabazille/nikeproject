@@ -10,6 +10,8 @@ body {
     background: radial-gradient(50% 50% at 50% 50%, #44464B 0%, #28292F 100%); 
     color:rgba(255, 255, 255, 1);
     font-family: "Montserrat", serif;
+    font-weight:400;
+    margin:40px;
 }
 
 nav {
@@ -232,31 +234,42 @@ footer {
     width: 1196px;
     height: 269px;
     margin-left: 40px;
-   
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right:200px;
+    margin-left:200px;
 
 }
 
 .lower-footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
+    margin-top:20px;
+ 
 }
-
 .lf-element1 {
     justify-content: flex-start;
+    margin-left:40px;
+    /* background-color: pink; */
 }
 
 .lf-element2 {
-    justify-content: flex-end;    
-}
+    justify-content: flex-end; 
+
+} 
 
 .footer-logo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap:50px;
+    margin-right:40px;
+    
 }
-
 
 .separateur3 {
     background-color: #FFFFFF ;
@@ -264,15 +277,16 @@ footer {
     width: 1196px;
     height: 2px;
     margin-left: 40px;
+    margin-top: 40px;
 }
 
-.container5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 .no-bullets {
     list-style-type: none;
+}
+.bold {
+    font-weight: 600;
+
 }
 
 /* @media(max-width: 414px) {
