@@ -107,10 +107,11 @@ nav a {
     display: flex;
     justify-content: center;
     align-self: flex-start;
+    
 }
 
 .S1flex1element2 img {
-    max-width: 936px;
+    max-width: 50vw;
     position: absolute;
     z-index: 1;
     margin-right: 16.875rem;
@@ -166,6 +167,8 @@ nav a {
     width: 433px;
     font-size: 24px;
     font-weight: 400;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
 }
 
 /* Style pour le bouton dans la section 1 */
@@ -230,6 +233,7 @@ h2 {
     overflow: hidden;
     box-sizing: border-box;
     margin-bottom: 2.9%;
+    margin-top: 5%
 }
 
 /* Style pour les éléments flexibles de la section 2 */
@@ -317,6 +321,7 @@ h2 {
     grid-row-gap: 1%;
     margin-right: 4rem;
     margin-left: 4rem;
+    margin-top: 8.35%
 }
 
 /* Style pour les différentes photos */
